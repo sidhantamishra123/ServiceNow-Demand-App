@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_711510_demand_ap_priority</description>
+        <name>x_711510_demand_ap_priority</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 13:12:23</sys_created_on>
+        <sys_id>4f36c6ed9711311028553d400153af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_711510_demand_ap_priority</sys_name>
+        <sys_package display_value="Demand App" source="x_711510_demand_ap">932db5a19711311028553d400153af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demand App">932db5a19711311028553d400153af2c</sys_scope>
+        <sys_update_name>sys_security_acl_4f36c6ed9711311028553d400153af08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 13:12:23</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demand App">932db5a19711311028553d400153af2c</application>
+        <file_path/>
+        <instance_id>095d7d8adb62c01049eac5970596193d</instance_id>
+        <instance_name>dev97726</instance_name>
+        <name>sys_security_acl_4f36c6ed9711311028553d400153af08</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_711510_demand_ap_priority</description><name>x_711510_demand_ap_priority</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-15 13:12:23</sys_created_on><sys_id>4f36c6ed9711311028553d400153af08</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_711510_demand_ap_priority</sys_name><sys_package display_value="Demand App" source="x_711510_demand_ap">932db5a19711311028553d400153af2c</sys_package><sys_policy/><sys_scope display_value="Demand App">932db5a19711311028553d400153af2c</sys_scope><sys_update_name>sys_security_acl_4f36c6ed9711311028553d400153af08</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-15 13:12:23</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>2093991225</payload_hash>
+        <record_name>x_711510_demand_ap_priority</record_name>
+        <reverted_from/>
+        <source>a91002e59711311028553d400153af31</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 13:21:08</sys_created_on>
+        <sys_id>533806e19751311028553d400153afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a99009bc50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 13:21:08</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5b36c6ed6511311032e979ea61ac380a</update_guid>
+        <update_guid_history>5b36c6ed6511311032e979ea61ac380a:2093991225,350886a16851311036ab84c3cd831338:2118295877,5b36c6ed6511311032e979ea61ac380a:2093991225</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 14:53:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3502ff8e79404ee7867db09cbbcab909</sys_id>
+        <sys_metadata>4f36c6ed9711311028553d400153af08</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_711510_demand_ap_priority</sys_name>
+        <sys_package display_value="Demand App" source="x_711510_demand_ap">932db5a19711311028553d400153af2c</sys_package>
+        <sys_parent display_value="x_711510_demand_ap_priority">5f36c6ed9711311028553d400153af1f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Demand App">932db5a19711311028553d400153af2c</sys_scope>
+        <sys_scope_delete display_value="">07ca3736245b44d08fce6a8ab2fd9bd1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_4f36c6ed9711311028553d400153af08</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_4f36c6ed9711311028553d400153af08">533806e19751311028553d400153afc0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 14:53:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
