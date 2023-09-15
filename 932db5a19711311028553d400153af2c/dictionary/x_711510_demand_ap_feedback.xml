@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="77474e219751311028553d400153af7c" label="Feedback" max_length="40" name="x_711510_demand_ap_feedback" type="collection">
+        <element label="Feedback Date" max_length="40" name="feedback_date" type="glide_date"/>
+        <element display="true" label="Feedback ID" max_length="40" name="feedback_id" type="string"/>
+        <element label="Feedback Text" max_length="40" name="feedback_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Idea ID" max_length="32" name="idea_id" reference="x_711510_demand_ap_demand" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="User ID" max_length="32" name="user_id" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="idea_id"/>
+        </index>
+        <index name="index2">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>
