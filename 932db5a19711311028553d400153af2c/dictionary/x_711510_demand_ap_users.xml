@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="853446699711311028553d400153afb7" label="Users" max_length="40" name="x_711510_demand_ap_users" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Account Status" max_length="40" name="account_status" type="choice">
+            <choice/>
+        </element>
+        <element label="Email Address" max_length="40" name="email_address" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" max_length="40" name="password" type="password"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Roles" max_length="4000" name="roles" type="glide_list"/>
+        <element label="User ID" max_length="40" name="user_id" type="string"/>
+    </element>
+</database>

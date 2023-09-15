@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="84b6ceed9711311028553d400153afc5" label="Notification" max_length="40" name="x_711510_demand_ap_notification" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Idea" max_length="32" name="idea" reference="x_711510_demand_ap_demand" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Is more than one Recipient" max_length="40" name="is_more_than_one_recipient" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Notification Content" max_length="8000" name="notification_content" type="html"/>
+        <element label="Notification Date" max_length="40" name="notification_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Notification Type" max_length="40" name="notification_type" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Recipient" max_length="32" name="recipient" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Recipients" max_length="4000" name="recipients" type="glide_list"/>
+        <index name="index">
+            <element name="idea"/>
+        </index>
+        <index name="index2">
+            <element name="recipient"/>
+        </index>
+    </element>
+</database>

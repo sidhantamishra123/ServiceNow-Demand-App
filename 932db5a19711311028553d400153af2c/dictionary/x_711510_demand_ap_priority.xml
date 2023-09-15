@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9f260e6d9711311028553d400153af5a" label="Priority" max_length="40" name="x_711510_demand_ap_priority" type="collection">
+        <element label="Priority ID" max_length="40" name="priority_id" type="string"/>
+        <element label="Priority Name" max_length="40" name="priority_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Priority Score" max_length="40" name="priority_score" type="integer"/>
+    </element>
+</database>

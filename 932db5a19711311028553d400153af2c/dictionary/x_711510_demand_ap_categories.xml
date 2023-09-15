@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5bc54ae99711311028553d400153af96" label="Categories" max_length="40" name="x_711510_demand_ap_categories" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Category ID" max_length="40" name="category_id" type="string"/>
+        <element label="Category Name" max_length="40" name="category_name" type="string"/>
+    </element>
+</database>
