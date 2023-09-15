@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map">
+    <sys_sg_navigation_tab_map action="INSERT_OR_UPDATE">
+        <navigation display_value="Mobile Agent">679d4f0653d033002d96ddeeff7b1279</navigation>
+        <navigation_tab display_value="Demand App">b39d35259711311028553d400153afad</navigation_tab>
+        <order>300</order>
+        <sys_class_name>sys_sg_navigation_tab_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 12:34:47</sys_created_on>
+        <sys_id>14ad71659711311028553d400153af00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Demand App" source="x_711510_demand_ap">932db5a19711311028553d400153af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demand App">932db5a19711311028553d400153af2c</sys_scope>
+        <sys_update_name>sys_sg_navigation_tab_map_14ad71659711311028553d400153af00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 12:34:47</sys_updated_on>
+    </sys_sg_navigation_tab_map>
+</record_update>
