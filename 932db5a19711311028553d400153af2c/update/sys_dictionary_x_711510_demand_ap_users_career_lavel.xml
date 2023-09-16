@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="first_name" table="x_711510_demand_ap_users">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="career_lavel" table="x_711510_demand_ap_users">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>First Name</column_label>
+        <column_label>Career lavel</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,13 +26,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>first_name</element>
+        <element>career_lavel</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_711510_demand_ap_users</name>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-09-15 13:07:17</sys_created_on>
-        <sys_name>First Name</sys_name>
+        <sys_created_on>2023-09-15 17:40:48</sys_created_on>
+        <sys_name>Career lavel</sys_name>
         <sys_package display_value="Demand App" source="x_711510_demand_ap">932db5a19711311028553d400153af2c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Demand App">932db5a19711311028553d400153af2c</sys_scope>
-        <sys_update_name>sys_dictionary_x_711510_demand_ap_users_first_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_711510_demand_ap_users_career_lavel</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-15 18:14:13</sys_updated_on>
+        <sys_updated_on>2023-09-15 17:40:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

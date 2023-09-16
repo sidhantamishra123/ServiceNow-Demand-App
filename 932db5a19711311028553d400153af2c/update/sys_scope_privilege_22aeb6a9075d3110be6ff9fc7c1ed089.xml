@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>create</operation>
+        <source_scope display_value="Demand App">932db5a19711311028553d400153af2c</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 17:18:56</sys_created_on>
+        <sys_id>22aeb6a9075d3110be6ff9fc7c1ed089</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc_task</sys_name>
+        <sys_package display_value="Demand App" source="x_711510_demand_ap">932db5a19711311028553d400153af2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demand App">932db5a19711311028553d400153af2c</sys_scope>
+        <sys_update_name>sys_scope_privilege_22aeb6a9075d3110be6ff9fc7c1ed089</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 17:18:56</sys_updated_on>
+        <target_name>sc_task</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

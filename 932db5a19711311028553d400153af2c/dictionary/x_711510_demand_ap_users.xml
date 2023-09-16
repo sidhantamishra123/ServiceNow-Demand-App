@@ -3,11 +3,17 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Account Status" max_length="40" name="account_status" type="choice">
             <choice/>
         </element>
-        <element label="Email Address" max_length="40" name="email_address" type="string"/>
-        <element label="First Name" max_length="40" name="first_name" type="string"/>
-        <element label="Last Name" max_length="40" name="last_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Password" max_length="40" name="password" type="password"/>
+        <element label="Career lavel" mandatory="true" max_length="40" name="career_lavel" type="integer"/>
+        <element label="Email Address" mandatory="true" max_length="40" name="email_address" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="Manager" mandatory="true" max_length="32" name="manager" reference="x_711510_demand_ap_users" reference_qual="career_lavel&gt;=6^EQ" reference_qual_condition="career_lavel&gt;=6^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Password" mandatory="true" max_length="40" name="password" type="password"/>
         <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Roles" max_length="4000" name="roles" type="glide_list"/>
-        <element label="User ID" max_length="40" name="user_id" type="string"/>
+        <element label="User ID" max_length="40" name="user_id" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.first_name+' '+current.last_name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="User name" max_length="40" name="user_name" read_only="true" type="string" virtual="true"/>
+        <index name="index">
+            <element name="manager"/>
+        </index>
     </element>
 </database>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_711510_demand_ap.basicUtilityFirst</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>basicUtilityFirst</name>
+        <script><![CDATA[var basicUtilityFirst = Class.create();
+basicUtilityFirst.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	checkUserIDExist : function(userID){
+		var gr_user = new GlideRecord('x_711510_demand_ap_users');
+		gr_user.addQuery('user_id',userID);
+		gr_user.query();
+		if(gr_user.hasNext()){
+			return 'true';
+		}
+		else{
+			return 'false';
+		}
+	},
+	getLatestUserIDWithSameUserName: function(userID){
+		var gr_user = new GlideAggregate('x_711510_demand_ap_users');
+		gr_user.addQuery('user_id','STARTSWITH',userID);
+		gr_user.orderByDesc('user_id');
+		gr_user.query();
+		if(gr_user.next()){
+			return gr_user.user_id;
+		}
+	},
+	
+    type: 'basicUtilityFirst'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-15 18:09:45</sys_created_on>
+        <sys_id>ec89c7e1079d3110be6ff9fc7c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>basicUtilityFirst</sys_name>
+        <sys_package display_value="Demand App" source="x_711510_demand_ap">932db5a19711311028553d400153af2c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Demand App">932db5a19711311028553d400153af2c</sys_scope>
+        <sys_update_name>sys_script_include_ec89c7e1079d3110be6ff9fc7c1ed0c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-15 18:09:45</sys_updated_on>
+    </sys_script_include>
+</record_update>
